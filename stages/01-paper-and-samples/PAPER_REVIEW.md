@@ -223,3 +223,94 @@ Thus, the obtained transcriptional profiles reflect the specific features of the
 نتایج به‌دست‌آمده همچنین کارایی بالای خوشه‌بندی مبتنی بر پروفایل‌های بیان (Expression Profile-Based Clustering) را برای شناسایی نمونه‌هایی که برای تحلیل‌های بعدی مناسب نیستند، نشان می‌دهند.
 
 پایان ترجمهٔ کامل این زیربخش. منبع: صفحهٔ ۲ مقاله، بخش Sample Clustering and the Final Sample Set Selection.&#x20;
+
+---
+
+# Differential expression analysis
+
+# بخش پنجم: تحلیل بیان افتراقی ژن‌ها Results and Discussion → Differential Expression Analysis
+
+عنوان فارسی: تحلیل بیان افتراقی (Differential Expression Analysis)
+
+صفحات ۳ تا ۵ مقاله | Nikitina et al., 2017
+
+در این بخش، نویسندگان پس از حذف نمونه‌های نامناسب، نخستین نتایج اصلی تحلیل بیان ژن را گزارش می‌کنند. ابتدا متن ارسالی و جدول‌ها را کامل ترجمه می‌کنیم و سپس سراغ توضیح علمی و ارزیابی نتایج می‌رویم.
+
+## ۱. ترجمهٔ کامل متن مقاله (Full Translation)
+### پاراگراف اول: انتخاب گروه‌های مقایسه برای تحلیل بیان افتراقی
+
+After removing the outliers identified above the final sampling consisted of 22 samples divided into control and tumor groups (Table 1). Because of the current lack of biomarkers for differential diagnostics of PCa and BPH, the control group of the study aimed at identifying potential markers of PCa should include samples obtained from patients with BPH [8]. For this reason, the control group in this investigation contained 12 samples, 9 of which correspond to histologically unchanged adjacent to tumor tissue of patients with PCa (BN3, CN1, CN3, CN8, CN11, CN12, CN13, CN14, CN15), 1 – to histologically unchanged adjacent to tumor tissue of patients with BPH (BN1), and 2 – to hyperplastic tissue of patients with BPH (BP1, BP2). Tumor group comprised 10 samples of tumorous tissue of patients with PCa (BP3, CP1, CP2, CP3, CP8, CP11, CP12, CP13, CP14, CP15). Based on the sequencing data of these 22 samples the analysis of differential expression was conducted in order to discover potential biomarkers of PCa. The MDS-plot reconstructed only for these samples (Figure 2) shows clear separation of the comparison groups. Moreover, it is worth noticing that the control group splits into two clusters: one of them contains samples from BPH patients and the other one – from PCa patients.
+
+پس از حذف نمونه‌های پرت (Outliers) شناسایی‌شده در بالا، مجموعهٔ نهایی نمونه‌ها (Final Sample Set) شامل ۲۲ نمونه بود که به دو گروه کنترل (Control Group) و تومور (Tumor Group) تقسیم شدند (جدول ۱).
+
+به دلیل کمبود فعلی نشانگرهای زیستی (Biomarkers) برای تشخیص افتراقی (Differential Diagnosis) سرطان پروستات (Prostate Cancer; PCa) و هیپرپلازی خوش‌خیم پروستات (Benign Prostatic Hyperplasia; BPH)، گروه کنترل در مطالعه‌ای که هدف آن شناسایی نشانگرهای بالقوهٔ سرطان پروستات است، باید شامل نمونه‌های به‌دست‌آمده از بیماران مبتلا به BPH نیز باشد [۸].
+
+به همین دلیل، گروه کنترل در این پژوهش شامل ۱۲ نمونه بود که از میان آن‌ها:
+
+۹ نمونه مربوط به بافت مجاور تومور، بدون تغییرات بافت‌شناختی (Histologically Unchanged Adjacent Tissue)، در بیماران مبتلا به سرطان پروستات بودند: BN3، CN1، CN3، CN8، CN11، CN12، CN13، CN14 و CN15.
+
+۱ نمونه مربوط به بافت مجاورِ بدون تغییرات بافت‌شناختی در کنار بافت «توموری» بیمار مبتلا به BPH بود: BN1.
+
+۲ نمونه مربوط به بافت دچار هیپرپلازی (Hyperplastic Tissue) در بیماران مبتلا به BPH بودند: BP1 و BP2.
+
+گروه توموری شامل ۱۰ نمونه از بافت توموری (Tumorous Tissue) بیماران مبتلا به سرطان پروستات بود: BP3، CP1، CP2، CP3، CP8، CP11، CP12، CP13، CP14 و CP15.
+
+بر اساس داده‌های توالی‌یابی (Sequencing Data) این ۲۲ نمونه، تحلیل بیان افتراقی (Differential Expression Analysis) به‌منظور کشف نشانگرهای زیستی بالقوه (Potential Biomarkers) سرطان پروستات انجام شد.
+
+نمودار مقیاس‌بندی چندبعدی (Multidimensional Scaling Plot; MDS Plot) که تنها بر اساس این نمونه‌ها دوباره ساخته شده بود (شکل ۲)، جدایی واضحی میان گروه‌های مورد مقایسه (Comparison Groups) نشان می‌دهد.
+
+علاوه بر این، شایان توجه است که گروه کنترل به دو خوشه (Clusters) تقسیم می‌شود: یکی از این خوشه‌ها شامل نمونه‌های بیماران مبتلا به BPH و دیگری شامل نمونه‌های بیماران مبتلا به PCa است.
+
+---
+
+### پاراگراف دوم: شناسایی ۳٬۳۸۴ ژن دارای بیان افتراقی
+
+The differential expression (DE) analysis resulted in the identification of 3384 genes (Supplemtary Table 1), whose expression differed between specified comparison groups with the statistical significance level set at FDR < 0.05. These genes are diverse in the types of transcripts they encode (Table 3). Interestingly, 371 (11%) of them correspond to non-coding transcripts, confirming the significant role these RNAs play in carcinogenesis [9, 10]. Furthermore, a high portion (2,7%) of DE small nucleolar RNAs is also worth noting with most of them being upregulated in tumor tissue. These results validate the involvement of this gene type in the process of PCa progression, which had been recently proposed [11,12].
+
+تحلیل بیان افتراقی (Differential Expression; DE) به شناسایی ۳٬۳۸۴ ژن منجر شد (جدول تکمیلی ۱؛ Supplementary Table 1) که بیان آن‌ها میان گروه‌های مقایسه‌ای تعیین‌شده متفاوت بود و سطح معناداری آماری (Statistical Significance Level) برای شناسایی آن‌ها برابر با نرخ کشف کاذب (False Discovery Rate; FDR) کمتر از ۰٫۰۵ در نظر گرفته شده بود.
+
+این ژن‌ها از نظر انواع رونوشت‌هایی (Transcripts) که کد می‌کنند، متنوع هستند (جدول ۳).
+
+جالب اینکه ۳۷۱ مورد از آن‌ها (۱۱ درصد) به رونوشت‌های غیرکدکننده (Non-Coding Transcripts) مربوط بودند؛ یافته‌ای که به گفتهٔ نویسندگان، نقش مهم این RNAها را در سرطان‌زایی (Carcinogenesis) تأیید می‌کند [۹، ۱۰].
+
+علاوه بر این، سهم بالای RNAهای کوچک هستکچه‌ای (Small Nucleolar RNAs; snoRNAs) دارای بیان افتراقی، معادل ۲٫۷ درصد، نیز شایان توجه است؛ به‌طوری‌که بیان بیشتر آن‌ها در بافت توموری افزایش یافته بود (Upregulated).
+
+این نتایج، به گفتهٔ نویسندگان، نقش این نوع RNA را در فرایند پیشرفت سرطان پروستات (PCa Progression) تأیید می‌کنند؛ نقشی که اخیراً در مطالعات پیشین پیشنهاد شده بود [۱۱، ۱۲].
+
+---
+
+### پاراگراف سوم: شناسایی نشانگرهای زیستی شناخته‌شدهٔ سرطان پروستات
+
+The list of DE genes identified in this study included many already known biomarkers of PCa, according to the literature. First of all, prostate cancer antigen 3 (PCA3) – long non-coding RNA, associated with PCa for the first time by its high expression level in tumorous tissue [13], – were also significantly overexpressed in “tumor” samples in this study (logFC = 4.6, FDR = 1.3e-12). Today PCA3 is being introduced into clinical practice as diagnostic marker of PCa detectable in urine, characterized by low false-negative rate and higher specificity than prostate specific antigen (PSA) [14]. It is worth noting that KLK3 gene, encoding PSA protein, did not appear on the list of statistically significant DE genes, which agrees well with its low specificity with respect to BPH [15].
+
+فهرست ژن‌های دارای بیان افتراقی (DE Genes) شناسایی‌شده در این مطالعه، مطابق منابع علمی، شامل بسیاری از نشانگرهای زیستی (Biomarkers) از پیش شناخته‌شدهٔ سرطان پروستات نیز بود.
+
+نخست از همه، آنتی‌ژن ۳ سرطان پروستات (Prostate Cancer Antigen 3; PCA3) که یک RNA بلند غیرکدکننده (Long Non-Coding RNA; lncRNA) است و نخستین بار به دلیل سطح بالای بیان خود در بافت توموری با سرطان پروستات مرتبط شناخته شد [۱۳]، در این مطالعه نیز در نمونه‌های «توموری» بیش‌بیانی (Overexpression) معناداری نشان داد:
+
+# l o g F C
+
+# 4.6 , F D R
+
+1.3 × 10 − 12 logFC=4.6,FDR=1.3×10 −12
+
+در زمان نگارش مقاله، PCA3 در حال ورود به کاربرد بالینی (Clinical Practice) به‌عنوان یک نشانگر تشخیصی (Diagnostic Marker) سرطان پروستات بود که در ادرار قابل‌شناسایی است و با نرخ پایین نتایج منفی کاذب (False-Negative Rate) و ویژگی تشخیصی (Specificity) بالاتر نسبت به آنتی‌ژن اختصاصی پروستات (Prostate-Specific Antigen; PSA) مشخص می‌شد [۱۴].
+
+شایان توجه است که ژن KLK3، که پروتئین PSA را کد می‌کند، در فهرست ژن‌های دارای بیان افتراقی از نظر آماری معنادار (Statistically Significant DE Genes) قرار نگرفت؛ موضوعی که به گفتهٔ نویسندگان، با ویژگی تشخیصی پایین این نشانگر در تمایز از BPH مطابقت دارد [۱۵].
+
+---
+
+### پاراگراف چهارم: سایر نشانگرهای شناخته‌شده و ژن ANKRD34B
+
+Differential expression of other known candidate biomarkers was detected in this study, including alpha-methylacyl-CoA racemase (AMACR) – mitochondrial beta-oxidase [16], – and genes HOXC6, TDRD1 and DLX, that form recently suggested three-gene panel, developed for early diagnostics of aggressive PCa (Gleason score 7 and higher) based on detection of these genes’ RNA in urine and measuring the level of serum PSA [17]. One more gene Ankyrin Repeat Domain 34B (ANKRD34B or DP58) less known as PCa biomarker but shown to be differentially expressed in prostate tumor/normal tissue comparison [18] was also found to be significantly overexpressed in tumor tissue in this study.
+
+بیان افتراقی (Differential Expression) سایر نشانگرهای زیستی نامزد (Candidate Biomarkers) شناخته‌شده نیز در این مطالعه شناسایی شد؛ از جمله آلفا-متیل‌آسیل-کوآ راسماز (Alpha-Methylacyl-CoA Racemase; AMACR)، که نویسندگان آن را در ارتباط با اکسیداسیون بتای میتوکندریایی (Mitochondrial Beta-Oxidation) توصیف کرده‌اند [۱۶].
+
+همچنین بیان افتراقی ژن‌های HOXC6، TDRD1 و DLX شناسایی شد که یک پنل سه‌ژنی (Three-Gene Panel) اخیراً پیشنهادشده را تشکیل می‌دهند.
+
+این پنل برای تشخیص زودهنگام (Early Diagnosis) سرطان پروستات تهاجمی (Aggressive Prostate Cancer)، با نمرهٔ گلیسون (Gleason Score) برابر با ۷ یا بالاتر، توسعه یافته بود و بر شناسایی RNA این ژن‌ها در ادرار و اندازه‌گیری سطح PSA سرم (Serum PSA Level) مبتنی است [۱۷].
+
+ژن دیگری به نام ANKRD34B یا DP58، با نام کامل دامنهٔ تکراری آنکیرین ۳۴B (Ankyrin Repeat Domain 34B)، نیز بررسی شد.
+
+این ژن به‌عنوان یک نشانگر زیستی سرطان پروستات کمتر شناخته شده بود، اما پیش‌تر نشان داده شده بود که در مقایسهٔ بافت توموری و طبیعی پروستات دارای بیان افتراقی است [۱۸].
+
+در این مطالعه نیز مشخص شد که بیان این ژن در بافت توموری به‌طور معناداری افزایش یافته است (Significant Overexpression).
