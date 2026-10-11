@@ -75,3 +75,51 @@ The aim of this study was to analyze the expression profiles of matched tumor an
 هدف این مطالعه، تحلیل پروفایل‌های بیان (Expression Profiles) نمونه‌های متناظرِ بافت توموری (Matched Tumor Tissue Samples) و بافت طبیعی مجاور (Adjacent Normal Tissue Samples) بود که از بیماران مبتلا به سرطان پروستات (PCa) و هیپرپلازی خوش‌خیم پروستات (BPH) در فدراسیون روسیه (Russian Federation) به دست آمده بودند.
 
 ما همچنین اثربخشی (Effectiveness) رویکرد توالی‌یابی RNA (RNA-Seq) را هنگام به‌کارگیری آن بر نمونه‌های بافتی تثبیت‌شده با فرمالین و قالب‌گیری‌شده در پارافین (Formalin-Fixed, Paraffin-Embedded; FFPE) ارزیابی کردیم و میزان سازگاری (Consistency) نتایج به‌دست‌آمده را با ویژگی‌های ریخت‌شناختی (Morphological Features) نمونه‌ها و ویژگی‌های بالینی (Clinical Characteristics) بیماران بررسی کردیم.
+
+---
+
+# RESULTS AND DISCUSSION
+
+# بخش سوم: نتایج و بحث (Results and Discussion)
+
+## Analysis of composition and depth of the transcriptional profiles obtained
+
+زیربخش اول: Analysis of composition and depth of the transcriptional profiles obtained
+
+ترجمهٔ عنوان: تحلیل ترکیب و عمق پروفایل‌های رونویسی به‌دست‌آمده (Analysis of Composition and Depth of the Transcriptional Profiles Obtained)
+
+صفحهٔ ۲ مقاله | Nikitina et al., 2017
+
+## ۱. ترجمهٔ کامل و وفادار به متن اصلی (Full Translation)
+
+The first stage of the study included RNA samples extracted from thin FFPE sections of prostate tissue obtained from 15 patients with PCa and 2 patients with BPH. For 15 patients there were matched samples, i.e. RNA was isolated from both tumorous tissue and histologically unchanged adjacent tissue, resulting in thirty samples total. For two patients only “tumor” samples were used (Table 1).
+
+### پاراگراف اول: نمونه‌های مورد استفاده در مرحلهٔ نخست پژوهش
+
+مرحلهٔ نخست این مطالعه شامل نمونه‌های RNA استخراج‌شده از برش‌های نازک (Thin Sections) بافت پروستات بود که به روش تثبیت با فرمالین و قالب‌گیری در پارافین (Formalin-Fixed Paraffin-Embedded; FFPE) آماده شده بودند. این نمونه‌ها از ۱۵ بیمار مبتلا به سرطان پروستات (Prostate Cancer; PCa) و ۲ بیمار مبتلا به هیپرپلازی خوش‌خیم پروستات (Benign Prostatic Hyperplasia; BPH) به دست آمده بودند.
+
+برای ۱۵ بیمار، نمونه‌های متناظر (Matched Samples) در دسترس بود؛ به این معنا که RNA هم از بافت توموری (Tumorous Tissue) و هم از بافت مجاورِ بدون تغییرات بافت‌شناختی (Histologically Unchanged Adjacent Tissue) استخراج شده بود که در مجموع ۳۰ نمونه را تشکیل می‌داد.
+
+برای دو بیمار دیگر، تنها از نمونه‌های «توموری» ("Tumor" Samples) استفاده شد (جدول ۱).
+
+---
+
+For each RNA sample transcriptome libraries were constructed and sequenced using the semiconductor sequencing technology. The obtained reads were filtered by quality and mapped to human genome version hg19. Reads corresponding to ribosomal RNAs did not present any interest for further analysis and therefore were excluded. Among other reads mapped to annotated sequences of the genome were the ones originated from protein-coding transcripts, long non-coding RNAs, small nucleolar RNAs, antisense RNAs, pseudogenes and other types of non-coding transcripts (Table 2). On average the transcripts of \~18000 genes were detected for each sample. According to EMBL-EBI Expression Atlas [5], the number of genes whose transcripts are found in prostate tissue varies from 11000 to 18000 based on the results of The FANTOM5 project» [6] and «GTEx» [7]. Thus the RNA-Seq analysis of RNA samples isolated from thin paraffin sections of prostate tissue provided the expression profiles reflecting the substantial part of the transcriptional activity of this tissue.
+
+### پاراگراف دوم: ساخت کتابخانه، توالی‌یابی و تحلیل اولیهٔ داده‌ها
+
+برای هر نمونهٔ RNA، کتابخانه‌های ترنسکریپتوم (Transcriptome Libraries) ساخته شدند و با استفاده از فناوری توالی‌یابی نیمه‌رسانا (Semiconductor Sequencing Technology) توالی‌یابی شدند.
+
+خوانش‌های (Reads) به‌دست‌آمده بر اساس کیفیت (Quality) پالایش شدند و به نسخهٔ hg19 ژنوم انسان (Human Genome) نگاشت (Mapped) شدند.
+
+خوانش‌های متناظر با RNAهای ریبوزومی (Ribosomal RNAs; rRNAs) برای تحلیل‌های بعدی مورد توجه نبودند و بنابراین حذف شدند.
+
+در میان سایر خوانش‌هایی که به توالی‌های حاشیه‌نویسی‌شدهٔ ژنوم (Annotated Sequences of the Genome) نگاشت شده بودند، خوانش‌هایی وجود داشتند که از رونوشت‌های کدکنندهٔ پروتئین (Protein-Coding Transcripts)، RNAهای بلند غیرکدکننده (Long Non-Coding RNAs; lncRNAs)، RNAهای کوچک هستکچه‌ای (Small Nucleolar RNAs; snoRNAs)، RNAهای آنتی‌سنس (Antisense RNAs)، شبه‌ژن‌ها (Pseudogenes) و سایر انواع رونوشت‌های غیرکدکننده (Non-Coding Transcripts) منشأ گرفته بودند (جدول ۲).
+
+به‌طور میانگین، در هر نمونه رونوشت‌های متعلق به حدود ۱۸٬۰۰۰ ژن شناسایی شدند.
+
+بر اساس پایگاه اطلس بیان (Expression Atlas) متعلق به مؤسسهٔ اروپایی بیوانفورماتیک (EMBL-EBI) [۵]، تعداد ژن‌هایی که رونوشت‌های آن‌ها در بافت پروستات یافت می‌شود، بر اساس نتایج پروژهٔ FANTOM5 [۶] و پروژهٔ GTEx [۷]، بین ۱۱٬۰۰۰ تا ۱۸٬۰۰۰ ژن متغیر است.
+
+بنابراین، تحلیل توالی‌یابی RNA (RNA-Seq Analysis) روی نمونه‌های RNA استخراج‌شده از برش‌های نازک پارافینی بافت پروستات، پروفایل‌های بیانی (Expression Profiles) را فراهم کرد که بخش قابل‌توجهی از فعالیت رونویسی (Transcriptional Activity) این بافت را بازتاب می‌دادند.
+
+پایان ترجمهٔ این زیربخش. منبع: متن مقاله، صفحهٔ ۲.&#x20;
