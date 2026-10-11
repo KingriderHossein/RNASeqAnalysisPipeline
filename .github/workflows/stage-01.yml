@@ -1,0 +1,29 @@
+name: Stage 1 paper and sample metadata
+on:
+  push:
+    branches: [main]
+    paths:
+      - "stages/01-paper-and-samples/**"
+      - ".github/workflows/stage-01.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "stages/01-paper-and-samples/**"
+      - ".github/workflows/stage-01.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  metadata-validation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Validate study metadata and published cohort
+        run: |
+          python3 stages/01-paper-and-samples/validate.py
+          python3 -m unittest discover -s stages/01-paper-and-samples -p 'test_*.py'
