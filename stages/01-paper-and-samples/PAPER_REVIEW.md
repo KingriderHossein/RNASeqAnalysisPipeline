@@ -123,3 +123,103 @@ For each RNA sample transcriptome libraries were constructed and sequenced using
 بنابراین، تحلیل توالی‌یابی RNA (RNA-Seq Analysis) روی نمونه‌های RNA استخراج‌شده از برش‌های نازک پارافینی بافت پروستات، پروفایل‌های بیانی (Expression Profiles) را فراهم کرد که بخش قابل‌توجهی از فعالیت رونویسی (Transcriptional Activity) این بافت را بازتاب می‌دادند.
 
 پایان ترجمهٔ این زیربخش. منبع: متن مقاله، صفحهٔ ۲.&#x20;
+
+---
+
+# Sample clustering and the final sample set selection
+
+# بخش چهارم: خوشه‌بندی نمونه‌ها و انتخاب مجموعهٔ نهایی
+
+Results and Discussion → Sample Clustering and the Final Sample Set Selection
+
+عنوان فارسی: خوشه‌بندی نمونه‌ها (Sample Clustering) و انتخاب مجموعهٔ نهایی نمونه‌ها (Final Sample Set Selection)
+
+صفحات ۲ تا ۴ مقاله | Nikitina et al., 2017
+
+## ۱. ترجمهٔ کامل و وفادار به متن اصلی (Full Translation)
+
+In order to assess the uniformity of the sample set multidimensional scaling (MDS) was used to cluster samples based on their expression profiles (Figure 1). It is clear that such clusterization successfully separates “tumor” samples from “normal” ones, although there are still several outliers not fitting in the whole picture. Corresponding thin FFPE sections were subjected to the second pathomorphological study. The greatest difference from other samples appears to be exhibited by expression profile of the sample CN5 obtained from “normal’ tissue of the patient with PCa. The second histological analysis revealed that the significant part of the “normal” prostate tissue on the FFPE section was taken up by the seminal vesicle, RNA-composition of which could naturally be found completely different. Samples CN5/CP5 were excluded from further analysis.
+
+### پاراگراف اول: ارزیابی یکنواختی نمونه‌ها و شناسایی نمونهٔ CN5
+
+به‌منظور ارزیابی یکنواختی (Uniformity) مجموعهٔ نمونه‌ها، از روش مقیاس‌بندی چندبعدی (Multidimensional Scaling; MDS) برای خوشه‌بندی (Clustering) نمونه‌ها بر اساس پروفایل‌های بیان (Expression Profiles) آن‌ها استفاده شد (شکل ۱).
+
+آشکار است که این خوشه‌بندی توانسته است نمونه‌های «توموری» (Tumor Samples) را با موفقیت از نمونه‌های «طبیعی» (Normal Samples) جدا کند؛ اگرچه همچنان چندین نمونهٔ پرت (Outliers) وجود دارند که با الگوی کلی مطابقت ندارند.
+
+برش‌های نازک FFPE متناظر با این نمونه‌ها، تحت دومین بررسی آسیب‌شناسی ریختی (Pathomorphological Examination) قرار گرفتند.
+
+به نظر می‌رسد بیشترین تفاوت با سایر نمونه‌ها مربوط به پروفایل بیان نمونهٔ `CN5` باشد که از بافت «طبیعی» بیمار مبتلا به سرطان پروستات (Prostate Cancer; PCa) به دست آمده بود.
+
+دومین بررسی بافت‌شناختی (Histological Analysis) نشان داد که بخش قابل‌توجهی از بافت پروستاتِ «طبیعی» موجود در برش FFPE را کیسهٔ منی (Seminal Vesicle) اشغال کرده بود؛ بافتی که ترکیب RNA آن (RNA Composition) طبیعتاً می‌توانست کاملاً متفاوت باشد.
+
+نمونه‌های `CN5/CP5` از تحلیل‌های بعدی حذف شدند.
+
+---
+
+Next sample that draws attention is CP6 from tumor tissue clustered with “normal” samples. Its FFPE section turned out to contain very small fraction of tumor tissue compared to histologically unchanged adjacent tissue, and consequently during the process of RNA extraction from that FFPE section high proportion of “normal” tissue could have been taken. The same applies to sample CP7. Samples CP6, CP7 and their counterparts were excluded from further analysis.
+
+### پاراگراف دوم: بررسی نمونه‌های CP6 و CP7
+
+نمونهٔ بعدی که توجه را جلب می‌کند، `CP6` است؛ نمونه‌ای متعلق به بافت توموری که در خوشهٔ نمونه‌های «طبیعی» قرار گرفته بود.
+
+مشخص شد که برش FFPE این نمونه، در مقایسه با بافت مجاورِ فاقد تغییرات بافت‌شناختی (Histologically Unchanged Adjacent Tissue)، تنها بخش بسیار کوچکی از بافت توموری را در بر می‌گرفت.
+
+در نتیجه، هنگام استخراج RNA (RNA Extraction) از آن برش FFPE، ممکن بود نسبت بالایی از بافت «طبیعی» وارد نمونهٔ استخراج‌شده شده باشد.
+
+همین وضعیت دربارهٔ نمونهٔ `CP7` نیز صدق می‌کرد.
+
+نمونه‌های `CP6` و `CP7` و نمونه‌های متناظر (Counterparts) با آن‌ها از تحلیل‌های بعدی حذف شدند.
+
+---
+
+In the case of sample CP10, the secondary histological study of the corresponding FFPE-section revealed a piece of normal tissue of a significant area within the tumor. A similar situation was observed for samples CP9/CN9 located on the border of tumor and normal groups on Figure 1. Here it is worth quoting the conclusion of the second pathomorphological report: “Tumor grows infiltratively, i.e. complexes of tumor cells not only form isolated bundle but also penetrate healthy tissue. As a result, the site initially marked out as tumor also included healthy tissue infiltrated by tumor complexes. It is impossible to provide a clear distinction between tumor and normal areas for this section”. In both described cases the presence of complicated sites resulted in the incorrect marking of the sections, which in turn prevented from obtaining strictly tumorous and normal RNA pools. Samples CN9/CP9 and CN10/CP10 were excluded from further analysis.
+
+### پاراگراف سوم: بررسی نمونه‌های CP9 و CP10 و مشکل نفوذ تومور به بافت سالم
+
+در مورد نمونهٔ `CP10`، دومین بررسی بافت‌شناختی برش FFPE متناظر نشان داد که در داخل تومور، قطعه‌ای از بافت طبیعی وجود داشت که مساحت قابل‌توجهی را اشغال کرده بود.
+
+وضعیت مشابهی نیز برای نمونه‌های `CP9/CN9` مشاهده شد که در شکل ۱، در مرز میان گروه‌های توموری و طبیعی قرار گرفته بودند.
+
+در اینجا شایسته است نتیجهٔ دومین گزارش آسیب‌شناسی ریختی (Pathomorphological Report) نقل شود:
+
+> «تومور به‌صورت نفوذی (Infiltratively) رشد می‌کند؛ یعنی مجموعه‌های سلول‌های توموری (Tumor Cell Complexes) نه‌تنها توده‌های جداگانه‌ای تشکیل می‌دهند، بلکه به بافت سالم نیز نفوذ می‌کنند.
+>
+> در نتیجه، ناحیه‌ای که در ابتدا به‌عنوان بافت توموری مشخص شده بود، شامل بافت سالمی نیز می‌شد که مجموعه‌های سلول‌های توموری به درون آن نفوذ کرده بودند.
+>
+> برای این برش، ایجاد تمایز واضح میان نواحی توموری و طبیعی امکان‌پذیر نیست.»
+
+در هر دو مورد توصیف‌شده، وجود نواحی پیچیده از نظر ساختار بافتی باعث شد که برش‌ها به‌اشتباه علامت‌گذاری (Incorrect Marking) شوند.
+
+این مسئله به نوبهٔ خود مانع از به‌دست‌آوردن مجموعه‌های RNA (RNA Pools) کاملاً توموری و کاملاً طبیعی شد.
+
+بنابراین، نمونه‌های `CN9/CP9` و `CN10/CP10` از تحلیل‌های بعدی حذف شدند.
+
+---
+
+The situation was different for sample BP3, obtained from patient with BPH according to accompanying documents. However, unlike other “adenomatous” samples (BN1, BP1, BP2), expression profile of BP3 resembles those of “tumor” samples. As a result of thorough inspection an error was found in patient’s documents and the diagnosis was in fact PCa. Interestingly, it was not possible to discover this mistake at any previous stage of the research and only the comparison of the expression profiles pointed out the similarity of BP3 to “tumor” samples. This sample was not excluded from analysis but was added to tumor comparison group.
+
+### پاراگراف چهارم: شناسایی خطای تشخیص در نمونهٔ BP3
+
+وضعیت نمونهٔ `BP3` متفاوت بود. مطابق اسناد همراه نمونه (Accompanying Documents)، این نمونه از بیماری مبتلا به هیپرپلازی خوش‌خیم پروستات (Benign Prostatic Hyperplasia; BPH) به دست آمده بود.
+
+بااین‌حال، برخلاف سایر نمونه‌های «آدنوماتوز» (Adenomatous Samples)، یعنی `BN1`، `BP1` و `BP2`، پروفایل بیان (Expression Profile) نمونهٔ `BP3` به پروفایل‌های بیان نمونه‌های «توموری» شباهت داشت.
+
+در نتیجهٔ بررسی دقیق (Thorough Inspection)، مشخص شد که در مدارک بیمار خطایی وجود داشته و تشخیص واقعی، سرطان پروستات (PCa) بوده است.
+
+نکتهٔ جالب اینکه کشف این اشتباه در هیچ‌یک از مراحل قبلی پژوهش امکان‌پذیر نشده بود و تنها مقایسهٔ پروفایل‌های بیان (Expression Profile Comparison) بود که شباهت نمونهٔ `BP3` به نمونه‌های «توموری» را آشکار کرد.
+
+این نمونه از تحلیل حذف نشد، بلکه به گروه مقایسهٔ توموری (Tumor Comparison Group) اضافه شد.
+
+---
+
+Thus, the obtained transcriptional profiles reflect the specific features of the samples and patients’ clinical characteristics, which is essential when searching for biomarkers capable of distinguishing different phenotypes. These results confirm the need to examine the sample groups for internal homogeneity since the outliers may distort the picture and lower the quality of the research. The results obtained also demonstrate high efficiency of clusterization based on the expression profiles to identify samples not suitable for further analysis.
+
+### پاراگراف پنجم: نتیجه‌گیری نویسندگان از مرحلهٔ خوشه‌بندی
+
+بنابراین، پروفایل‌های رونویسی (Transcriptional Profiles) به‌دست‌آمده، ویژگی‌های اختصاصی نمونه‌ها و ویژگی‌های بالینی (Clinical Characteristics) بیماران را بازتاب می‌دهند؛ موضوعی که هنگام جست‌وجوی نشانگرهای زیستی (Biomarkers) با قابلیت تمایز میان فنوتیپ‌های (Phenotypes) مختلف، ضروری است.
+
+این نتایج، ضرورت بررسی گروه‌های نمونه از نظر همگنی درونی (Internal Homogeneity) را تأیید می‌کنند؛ زیرا نمونه‌های پرت (Outliers) ممکن است تصویر کلی داده‌ها را مخدوش کنند و کیفیت پژوهش را کاهش دهند.
+
+نتایج به‌دست‌آمده همچنین کارایی بالای خوشه‌بندی مبتنی بر پروفایل‌های بیان (Expression Profile-Based Clustering) را برای شناسایی نمونه‌هایی که برای تحلیل‌های بعدی مناسب نیستند، نشان می‌دهند.
+
+پایان ترجمهٔ کامل این زیربخش. منبع: صفحهٔ ۲ مقاله، بخش Sample Clustering and the Final Sample Set Selection.&#x20;
