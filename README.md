@@ -8,6 +8,6 @@
 
 در این مرحله، مقالهٔ Nikitina و همکاران (۲۰۱۷)، هدف پژوهش، طراحی مطالعه، تفاوت ۳۲ نمونهٔ توالی‌یابی‌شده با ۲۲ نمونهٔ نهایی مقاله، مشخصات فنی داده‌ها و جدول شناسه‌های `GSM / SRX / SRR / BioSample` معرفی شده‌اند.
 
-[جدول ۳۲ نمونه](stages/01-paper-and-samples/SAMPLES.md) · [فایل ماشین‌خوان نمونه‌ها](stages/01-paper-and-samples/data/GSE89223_samples.tsv)
+[جدول ۳۲ نمونه](stages/01-paper-and-samples/SAMPLES.md) · [فایل ماشین‌خوان نمونه‌ها](stages/01-paper-and-samples/data/GSE89223_samples.tsv) · [آموزش ویدیویی مرحلهٔ اول (NotebookLM)](https://notebooklm.link.google/eltfgUrzHhhh)
 
 > این بخش صرفاً دربارهٔ مقاله و نمونه‌هاست؛ دانلود داده‌ها، اجرای ابزارهای RNA-seq یا تحلیل جدید در این مرحله انجام نشده‌اند.
